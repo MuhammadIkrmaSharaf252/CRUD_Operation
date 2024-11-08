@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD with MockAPI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Student CRUD Operations</h2>
+    <div id="message" class="message"></div>
+
+    <input type="text" id="name" placeholder="Student Name">
+    <input type="number" id="age" placeholder="Student Age">
+    <button onclick="createStudent()">Add Student</button>
+    <button onclick="getStudents()">View Students</button>
+
+    <h3>Students</h3>
+    <div id="studentsContainer"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
